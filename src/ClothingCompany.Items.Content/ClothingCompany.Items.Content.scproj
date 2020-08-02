@@ -1,0 +1,57 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a2590ab7-f0fa-4099-ba75-f79d60bbbafd</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>BasicCompany.Items.Content</AssemblyName>
+    <Name>ClothingCompany.Items.Content</Name>
+    <RootNamespace>BasicCompany.Items.Content</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <SourceWebVirtualPath>/ClothingCompany.Web.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{023339ce-eea7-4e9b-9a7f-960202ad3135}|src\ClothingCompany.Web\ClothingCompany.Web.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\ClothingCompany.Web</SourceWebPhysicalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <DisableFileDeployment>True</DisableFileDeployment>
+    <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <PostDeployAction Include="HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor.BuiltIn.PublishDeployedItems, HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor">
+      <Parameter>Internet</Parameter>
+      <Order>0</Order>
+    </PostDeployAction>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClothingCompany.Web\ClothingCompany.Web.csproj">
+      <Project>{023339ce-eea7-4e9b-9a7f-960202ad3135}</Project>
+      <Name>ClothingCompany.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>
