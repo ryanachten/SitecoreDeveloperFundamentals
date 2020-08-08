@@ -2,7 +2,7 @@
 ID: "618b5d10-810f-4c40-b38a-3d17c0d2d22f"
 Parent: "4564abe2-b81e-490f-b7e3-8de227ae3717"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/ClothingCo/Base_Templates/_Image Bank
+Path: /sitecore/templates/ClothingCo/Base_Templates/_ImageBank
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -30,11 +30,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97c3296b-4bc9-4185-bb9b-6c2c89ae9b79"
+      Value: "753a5e96-0486-4819-b882-90d979d77d29"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200808T002113Z
+      Value: 20200808T003745Z
