@@ -66,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Project\css\clothingco-styles.css" />
+    <Content Include="Project\css\custom.css" />
+    <Content Include="Project\js\clothingco-script.js" />
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
