@@ -1,0 +1,48 @@
+---
+ID: "b286f031-6686-4951-ba2c-9acd32d0c7db"
+Parent: "cf79e467-87e3-4fe9-904d-defdf3cfff6c"
+Template: "cf79e467-87e3-4fe9-904d-defdf3cfff6c"
+Path: /sitecore/templates/ClothingCo/Base_Templates/_ContentPageTemplate/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{40C665CC-16C2-4D31-8F04-D5AF07F9E6C9}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200805T210549Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "52cd36e0-7935-47d3-bd75-fda2944e68d7"
+      Hint: Page Title
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "867a496a-9b56-418a-8bb1-dcf2a04203a6"
+      Hint: Subtitle
+      Value: Page subtitle goes here
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "484f002b-7ebb-47ff-90d6-0d6361f3b9fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200815T215240Z
