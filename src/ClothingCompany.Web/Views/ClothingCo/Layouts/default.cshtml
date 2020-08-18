@@ -19,7 +19,12 @@
 </head>
 
 <body>
-    <h1>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</h1>
+    <div>
+        <h1>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</h1>
+    </div>
+    <div>
+        <p>@Html.Sitecore().Field("Primary Image", new { mh = "200" })</p>
+    </div>
     <div>
         @Html.Sitecore().Placeholder("main")
     </div>
