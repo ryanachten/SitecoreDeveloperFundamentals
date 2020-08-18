@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var homeItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+}
+<nav>
+    <div class="navbar is-light" role="navigation" aria-label="dropdown navigation">
+        <div class="navbar-item">
+            <a class="navbar-link is-arrowless">Home</a>
+        </div>
+        <div class="navbar-item">
+            <a class="navbar-link is-arrowless">Blogs</a>
+        </div>
+        <div class="navbar-item">
+            <a class="navbar-link is-arrowless">Reviews</a>
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                @Html.Sitecore().Field("__Display Name", homeItem, new { DisableWebEdit = true })
+            </div>
+        </div>
+    </div>
+</nav>

@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ClothingCo\Layouts\default.cshtml" />
+    <Content Include="Views\ClothingCo\Structure\header.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
