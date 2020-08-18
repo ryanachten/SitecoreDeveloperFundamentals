@@ -3,6 +3,7 @@
 @model RenderingModel
 @{
     Layout = null;
+    var homeItem = Sitecore.Context.Database.GetItem("/sitecore/content/Home");
 }
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-    <h1>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</h1>
+    <h1>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</h1>
     <div>
         @Html.Sitecore().Placeholder("main")
     </div>
