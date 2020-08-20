@@ -9,7 +9,7 @@ namespace ClothingCompany.Models
     public class NavItem
     {
         public Item Item { get; set; }
-        public Item Url { get; set; }
+        public string Url { get; set; }
 
     }
 }
