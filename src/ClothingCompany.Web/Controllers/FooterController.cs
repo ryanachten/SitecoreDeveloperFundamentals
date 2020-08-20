@@ -15,7 +15,8 @@ namespace ClothingCompany.Controllers
         // GET: Footer
         public ActionResult Index()
         {
-            var footerFolder = Sitecore.Context.Database.GetItem("/sitecore/content/Home/Resources");
+            // TODO: should point to the /Home/Resources folder
+            var footerFolder = Sitecore.Context.Database.GetItem("/sitecore/content/Home");
             
             IEnumerable<NavItem> GetNavItems(Item navRoot)
             {

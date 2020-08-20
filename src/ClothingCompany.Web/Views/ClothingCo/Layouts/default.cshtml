@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    @* TODO: tutorial uses GUID instead of path *@
     @Html.Sitecore().ViewRendering("~/Views/ClothingCo/Structure/Header.cshtml")
     <div>
         <h1>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</h1>
@@ -29,8 +30,8 @@
     <div>
         @Html.Sitecore().Placeholder("main")
     </div>
-    
-    @Html.Sitecore().ViewRendering("~/Views/ClothingCo/Footer/Index.cshtml")
+
+    @Html.Sitecore().ControllerRendering("Footer", "Index")
 
     <script src="~/Project/js/clothingco-script.js"></script>
 </body>
