@@ -83,6 +83,7 @@
     <Content Include="Views\ClothingCo\Structure\header.cshtml" />
     <Content Include="Views\Footer\Index.cshtml" />
     <Content Include="Views\Nav\Index.cshtml" />
+    <Content Include="Views\Basic Components\Article.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

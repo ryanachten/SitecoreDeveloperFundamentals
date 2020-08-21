@@ -1,0 +1,70 @@
+---
+ID: "cc800eab-aba5-4a22-b8b5-b81ffa3881b8"
+Parent: "b2043edb-40ec-48c5-9ddb-2f51a4105ab5"
+Template: "fa205ce1-12ab-45f6-9928-4b1361879108"
+Path: /sitecore/content/Home/Blog Posts/How to Look Expensive on a Budget
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{381EFA64-45FC-40DA-BCBC-8C3706D66036}"
+              p:after="*[1=2]"
+              s:id="{FF02D0E2-D7C2-4455-B95D-F40CB37868FF}"
+              s:par=""
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200821T073008Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "52cd36e0-7935-47d3-bd75-fda2944e68d7"
+      Hint: Page Title
+      Value: How to Look Expensive on a Budget
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "83c3ab18-db91-40c2-aee1-257cd2a6d86a"
+      Hint: Date Time
+      Value: 20200821T075000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4e07ae1-55ea-46d7-b6e9-1f89eb49342c"
+    - ID: "a4797247-bbc4-4907-935c-90819af25435"
+      Hint: Overflow Text
+      Value: This is some test overflow text via the rich text editor
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c2163c8e-f972-48bc-baae-b60e8825f80c"
+      Hint: Author
+      Value: "{7B710AD5-0794-4067-AB34-BC324DBE5902}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200821T081118Z
+    - ID: "e0561156-b4bc-465d-9500-d5c0715e358c"
+      Hint: Primary image
+      Value: |
+        <image mediaid="{7769529E-7700-4660-AC72-5669C2AB248F}" />
+    - ID: "ec0ebabe-17d1-4c9e-bcfc-96ea1156ba92"
+      Hint: Primary content text
+      Value: This is some test primary content text via the rich text editor
