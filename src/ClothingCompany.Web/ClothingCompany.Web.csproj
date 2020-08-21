@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\FooterController.cs" />
+    <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Models\NavItem.cs" />
     <Compile Include="Models\NavGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +82,7 @@
     <Content Include="Views\ClothingCo\Layouts\default.cshtml" />
     <Content Include="Views\ClothingCo\Structure\header.cshtml" />
     <Content Include="Views\Footer\Index.cshtml" />
+    <Content Include="Views\Nav\Index.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

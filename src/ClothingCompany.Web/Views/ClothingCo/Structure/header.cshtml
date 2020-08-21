@@ -6,16 +6,7 @@
 }
 <nav>
     <div class="navbar is-light" role="navigation" aria-label="dropdown navigation">
-        <div class="navbar-item">
-            <a class="navbar-link is-arrowless">Home</a>
-        </div>
-        <div class="navbar-item">
-            <a class="navbar-link is-arrowless">Blogs</a>
-        </div>
-        <div class="navbar-item">
-            <a class="navbar-link is-arrowless">Reviews</a>
-        </div>
-
+        @Html.Sitecore().ControllerRendering("Nav", "Index")
         <div class="navbar-end">
             <div class="navbar-item">
                 @Html.Sitecore().Field("__Display Name", homeItem, new { DisableWebEdit = true })
