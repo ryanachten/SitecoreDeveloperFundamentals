@@ -1,0 +1,41 @@
+---
+ID: "6e116cb5-e03d-448d-93af-4124d598b618"
+Parent: "3dbbc0a6-2ec0-4b60-accc-2933a588e7b2"
+Template: "cc9ea107-b712-4501-853d-d30ac3c960dd"
+Path: /sitecore/content/Image Banks/Fall Wardrobe Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200406T205929Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59ef3417-c3b9-4e5c-82a2-eb7afe4aa8d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200415T150255Z
+    - ID: "fb8b13b6-82e7-4c28-8467-d8a58b857130"
+      Hint: Images
+      Type: Treelist
+      Value: |
+        {987F3CBB-C6CC-46B9-AF60-38D567B12394}
+        {5827D432-750D-46E1-A38B-087F0BC28387}
+        {9741C2C3-B65C-46A7-8014-D68EF41E59B6}
+        {D7BBC009-062D-4A69-832D-6AAE7D765659}
+        {75EE3D7A-2C3A-4A19-AE7B-5BD9E28A9DF3}
